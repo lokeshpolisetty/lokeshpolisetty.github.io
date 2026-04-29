@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polisetty Lokesh — Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">LP</a>
+            <div class="d-flex align-items-center gap-3">
+                <a href="resume.pdf" download class="btn-resume">
+                    <i class="bi bi-download"></i> Resume
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-section">
+        <div class="hero-shape"></div>
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-lg-6">
+                    <span class="badge-text">BTech CS @ SRM AP • Graduating 2027</span>
+                    <h1 class="hero-title">
+                        Polisetty <span class="accent">Lokesh</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        I build tech that solves real problems. Clean code, scalable systems, and work that ships.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn-primary">
+                            See my work
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn-secondary">
+                            Get in touch
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 ms-auto">
+                    <div class="profile-wrapper">
+                        <div class="profile-img">
+                            <img src="profile.jpg" alt="Polisetty Lokesh" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <span class="section-label">About Me</span>
+                    <h2 class="section-title">The story behind the code</h2>
+                    <p class="about-text">
+                        Two years into programming — and I still get that rush when something actually works. 
+                        Not the "shipping for the sake of shipping" that everyone talks about. I mean the real thing: 
+                        code that solves problems, that's clean, that someone uses.
+                    </p>
+                    <p class="about-text">
+                        I'm the person who sees a hard problem and thinks <span class="highlight">finally, something worth solving</span>. 
+                        My GitHub bio says it best: "Always learning. Always shipping."
+                    </p>
+                </div>
+                <div class="col-lg-5 ms-auto">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-num">2+</div>
+                            <div class="stat-label">Years building</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-num">6</div>
+                            <div class="stat-label">Projects shipped</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section alt-bg">
+        <div class="container">
+            <span class="section-label">Skills</span>
+            <h2 class="section-title">What I work with</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="skill-group">
+                        <h4>Languages</h4>
+                        <div class="tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">C++</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-group">
+                        <h4>Backend</h4>
+                        <div class="tags">
+                            <span class="tag">Flask</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">REST APIs</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-group">
+                        <h4>ML & AI</h4>
+                        <div class="tags">
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">EfficientNet</span>
+                            <span class="tag">Gemini AI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-group">
+                        <h4>Cloud & Tools</h4>
+                        <div class="tags">
+                            <span class="tag">AWS</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">Postman</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <span class="section-label">Projects</span>
+            <h2 class="section-title">What I've built</h2>
+            <p class="section-desc">Not everything's on GitHub. Some things just work.</p>
+            
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <a href="https://github.com/lokeshpolisetty/RESUME_WEBSITE" target="_blank" class="project-card">
+                        <div class="project-head">
+                            <h3>Resume Builder & Parser</h3>
+                            <span class="project-badge">ATS-Ready</span>
+                        </div>
+                        <p>Full-stack Flask platform with Google Generative AI for PDF parsing. Secure auth, real-time LaTeX preview.</p>
+                        <div class="project-tech">
+                            <span>Flask</span>
+                            <span>Google GenAI</span>
+                            <span>LaTeX</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://github.com/lokeshpolisetty/Skin-Disease-Classification" target="_blank" class="project-card">
+                        <div class="project-head">
+                            <h3>Skin Disease Classification</h3>
+                            <span class="project-badge">88.61%</span>
+                        </div>
+                        <p>EfficientNet-B0 classifier handling 3.91x class imbalance on 26K images with GradCAM visualization.</p>
+                        <div class="project-tech">
+                            <span>PyTorch</span>
+                            <span>EfficientNet</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://github.com/lokeshpolisetty/Smart-Tutor-APP" target="_blank" class="project-card">
+                        <div class="project-head">
+                            <h3>Smart Tutor APP</h3>
+                            <span class="project-badge">Live</span>
+                        </div>
+                        <p>AI-powered tutoring platform with Gemini integration. Role-based dashboards, session booking.</p>
+                        <div class="project-tech">
+                            <span>Flask</span>
+                            <span>Gemini AI</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://drive.google.com/drive/folders/1wuqRau7fvU83vR6aS6HNSArcRr7OjR3W" target="_blank" class="project-card">
+                        <div class="project-head">
+                            <h3>CropGuard</h3>
+                            <span class="project-badge">99.2%</span>
+                        </div>
+                        <p>Research — custom ResNet-9 CNN on PlantVillage. 87K+ images, 38 disease classes.</p>
+                        <div class="project-tech">
+                            <span>PyTorch</span>
+                            <span>ResNet-9</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://github.com/lokeshpolisetty/tender_system" target="_blank" class="project-card">
+                        <div class="project-head">
+                            <h3>Tender System</h3>
+                            <span class="project-badge">Production</span>
+                        </div>
+                        <p>Government e-procurement portal with RBAC, bid encryption, fraud detection. AWS deployed.</p>
+                        <div class="project-tech">
+                            <span>Flask</span>
+                            <span>PostgreSQL</span>
+                            <span>AWS</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://github.com/lokeshpolisetty/scorevista" target="_blank" class="project-card">
+                        <div class="project-head">
+                            <h3>ScoreVista</h3>
+                            <span class="project-badge">Live</span>
+                        </div>
+                        <p>Real-time sports scoring with WebSockets. Per-sport admin panels, TV display mode.</p>
+                        <div class="project-tech">
+                            <span>Flask</span>
+                            <span>WebSockets</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section alt-bg">
+        <div class="container">
+            <span class="section-label">Experience</span>
+            <h2 class="section-title">Where I've worked</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="exp-card">
+                        <div class="exp-head">
+                            <h4>CropGuard — Research Intern</h4>
+                            <span class="exp-date">2024</span>
+                        </div>
+                        <p class="exp-company">AI-Powered Leaf Disease Identification</p>
+                        <ul class="exp-tasks">
+                            <li>Built custom ResNet-9 CNN on PlantVillage dataset (87,000+ images, 38 disease classes)</li>
+                            <li>Achieved 99.2% validation accuracy and 100% test accuracy</li>
+                            <li>Implemented full pipeline: data augmentation, normalization, 80/20 stratified split</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section">
+        <div class="container">
+            <span class="section-label">Certifications</span>
+            <h2 class="section-title">Proven skills</h2>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-5">
+                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=0232ACDF88FE97678C4C7CDC72C13D6F03A154CBA3F21A79B880781B2A103891" target="_blank" class="cert-card">
+                        <i class="bi bi-award cert-icon"></i>
+                        <p>Oracle Certified Professional<br>Java SE 17 Developer</p>
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <a href="https://www.credly.com/badges/fc7f97d2-2e0c-4b75-951c-6c13f1b298bc" target="_blank" class="cert-card">
+                        <i class="bi bi-cloud cert-icon"></i>
+                        <p>AWS Certified<br>Cloud Practitioner</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section dark-bg">
+        <div class="container">
+            <span class="section-label">Contact</span>
+            <h2 class="section-title text-white">Let's build something</h2>
+            <p class="contact-text">
+                Got a project, an idea, or just want to chat about what you're building? I'm all ears.
+            </p>
+            <div class="contact-links">
+                <a href="https://github.com/lokeshpolisetty" target="_blank">
+                    <i class="bi bi-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/lokesh-polisetty-674231291/" target="_blank">
+                    <i class="bi bi-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://leetcode.com/u/lokesh_polisetty/" target="_blank">
+                    <i class="bi bi-code-slash"></i> LeetCode
+                </a>
+                <a href="mailto:polisettylokesh01@gmail.com">
+                    <i class="bi bi-envelope"></i> Email
+                </a>
+                <a href="resume.pdf" download>
+                    <i class="bi bi-file-earmark-text"></i> Resume
+                </a>
+            </div>
+            <p class="location">Based in Guntur, Andhra Pradesh, India</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <p>© 2027 Polisetty Lokesh. Built with care.</p>
+                <p class="brand">Polisetty Lokesh</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
